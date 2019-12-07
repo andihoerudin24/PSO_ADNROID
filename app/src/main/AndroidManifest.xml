@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity android:name=".HelpActivity"></activity>
-        <activity android:name=".AboutActivity" />
+        <activity android:name=".TentangActivity" />
         <activity android:name=".MainActivity" />
 
         <meta-data

@@ -55,8 +55,8 @@ public class MainActivity extends AppCompatActivity {
         posindonesia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent aboutActivity = new Intent(MainActivity.this,AboutActivity.class);
-                startActivity(aboutActivity);
+                Intent tentangActivity = new Intent(MainActivity.this, TentangActivity.class);
+                startActivity(tentangActivity);
             }
         });
         help.setOnClickListener(new View.OnClickListener() {

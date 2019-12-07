@@ -4,39 +4,9 @@
 
 Inovasi terus dilakukan oleh Pos Indonesia antara lain pembangunan Post Shop yang merupakan pengembangan bisnis ritel yang diimplementasikan untuk merubah image Kantor pos konvensional menjadi Kantor pos modern dengan pola layanan one stop shopping, yaitu Postal Services (jasa ritel) berupa layanan pengiriman surat, paket, jasa keuangan, penjualan Postal items (meterai, prangko, produk filateli dan lain lain), layanan Online Shopping</string>
 
-   <string name="help">Layanan Kurir Reguler
-
-Sarana pengiriman dokumen dan barang domestik standar dengan jaringan terluas, melayani tujuan lokal, regional dan nasional
-
-(Lead Time Maksimal H+14)
-
--Standar Waktu Penyerahan maksimal H + 14
-
--Area dan tujuan kiriman jaringan nasional
-
-Berat kiriman :
-
-- Surat         = s.d 2 kg
-
-- Paket         = s.d 20 kg
-
-- Surat menggunakan prangko
-
-- Paket menggunakan resi
-
-Dasar perhitungan tarif berdasarkan actual weight/volumetrik
-
-Dilengkapi dengan sistem jejak lacak utk kiriman Paket
-
-Dimensi ukuran/size :
-
-Panjang maksimal 150 cm
-Volumetrik > 90 cm
-Ganti Rugi :
-
-Terlambat 1 x ongkos kirim
-Rusak 5 atau 10 x ongkos kirim
-Hilang 10 x ongkos kirim
-Cara pelunasan tunai/kredit
- </string>
+   <string name="help">\n1. Untuk menggunakan aplikasi ini pastikan ponsel terhubung dengan internet dan menggunakan gps
+    \n\n2. Halaman pos indonesia menampilkan definisi tentang pos indonesia
+    \n\n3. Pada halaman pencarian jalur menggunakan pso menampilkan jarak dan waktu suatu alamat
+    \n\n4. Untuk memulai pencarian alamat tekan menu pencarian jalur menggunakan pso, lalu masukan alamat yang di tuju
+    \n\n5. Untuk memulai pencarian baru dan menghapus hasil pencarian, tekan menu kembali</string>
 </resources>
