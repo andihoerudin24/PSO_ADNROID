@@ -16,6 +16,7 @@
     <list default="true" id="7e3b7b20-30db-468d-aee1-cbad6c0f9aa0" name="Default Changelist" comment="">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
@@ -24,27 +25,22 @@
 =======
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mybutton.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tentang.xml" afterDir="false" />
+=======
+>>>>>>> 59abe05d2993ddd4579e79a54de91e2b91f1e26f
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
 >>>>>>> 35f97ec6004969268f93df9caa7c60f5aaa68e66
+=======
+>>>>>>> 59abe05d2993ddd4579e79a54de91e2b91f1e26f
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/khilman/www/learngoogleapi/AboutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/khilman/www/learngoogleapi/TentangActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/khilman/www/learngoogleapi/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/khilman/www/learngoogleapi/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_help.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_help.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ojek.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ojek.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +61,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/khilman/www/learngoogleapi/OjekActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="99" column="30" lean-forward="true" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5021#5022#0" expanded="true" />
+                <element signature="e#5072#5073#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98,9 +108,14 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ojek.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="340">
               <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
 >>>>>>> 35f97ec6004969268f93df9caa7c60f5aaa68e66
+=======
+            <state relative-caret-position="187">
+              <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+>>>>>>> 59abe05d2993ddd4579e79a54de91e2b91f1e26f
             </state>
           </provider>
         </entry>
@@ -124,8 +139,12 @@
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="259">
+<<<<<<< HEAD
               <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
 >>>>>>> 35f97ec6004969268f93df9caa7c60f5aaa68e66
+=======
+              <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+>>>>>>> 59abe05d2993ddd4579e79a54de91e2b91f1e26f
             </state>
           </provider>
           <provider editor-type-id="android-manifest" />
@@ -144,11 +163,12 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/khilman/www/learngoogleapi/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
 <<<<<<< HEAD
@@ -165,6 +185,9 @@
 >>>>>>> fb818edc976ce666cc7b809ebf45ff903d7fd9d3
 =======
       <file pinned="false" current-in-tab="true">
+=======
+      <file pinned="false" current-in-tab="false">
+>>>>>>> 59abe05d2993ddd4579e79a54de91e2b91f1e26f
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_help.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
@@ -192,7 +215,7 @@
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="355">
-              <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
               <folding>
                 <element signature="e#2217#2232#0" expanded="true" />
               </folding>
@@ -214,6 +237,7 @@
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
+<<<<<<< HEAD
               <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
             </state>
           </provider>
@@ -232,6 +256,9 @@
             <state relative-caret-position="302">
               <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
 >>>>>>> 35f97ec6004969268f93df9caa7c60f5aaa68e66
+=======
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+>>>>>>> 59abe05d2993ddd4579e79a54de91e2b91f1e26f
             </state>
           </provider>
         </entry>
@@ -281,7 +308,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/khilman/www/learngoogleapi/OjekActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/iseng.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ojek.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/mybutton.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" />
@@ -289,6 +315,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_tentang.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_help.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ojek.xml" />
       </list>
     </option>
   </component>
@@ -477,7 +504,17 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -487,6 +524,9 @@
 >>>>>>> fb818edc976ce666cc7b809ebf45ff903d7fd9d3
 =======
     <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+=======
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+>>>>>>> 59abe05d2993ddd4579e79a54de91e2b91f1e26f
     <editor active="true" />
 >>>>>>> 35f97ec6004969268f93df9caa7c60f5aaa68e66
     <layout>
@@ -519,8 +559,12 @@
 >>>>>>> fb818edc976ce666cc7b809ebf45ff903d7fd9d3
 =======
       <window_info active="true" anchor="bottom" id="Build" order="9" sideWeight="0.49546143" visible="true" weight="0.25120774" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Preview" order="0" visible="true" weight="0.27231467" />
 >>>>>>> 35f97ec6004969268f93df9caa7c60f5aaa68e66
+=======
+      <window_info anchor="right" id="Preview" order="0" weight="0.27231467" />
+>>>>>>> 59abe05d2993ddd4579e79a54de91e2b91f1e26f
       <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Gradle" order="3" />
@@ -709,6 +753,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/khilman/www/learngoogleapi/OjekActivity.java">
 <<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
@@ -740,6 +785,8 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
+=======
+>>>>>>> 59abe05d2993ddd4579e79a54de91e2b91f1e26f
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -875,7 +922,7 @@
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -886,19 +933,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ojek.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
-          <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -918,7 +957,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/khilman/www/learngoogleapi/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -926,7 +965,7 @@
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
-          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
           <folding>
             <element signature="e#2217#2232#0" expanded="true" />
           </folding>
@@ -951,6 +990,26 @@
         </state>
       </provider>
 >>>>>>> 35f97ec6004969268f93df9caa7c60f5aaa68e66
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ojek.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/khilman/www/learngoogleapi/OjekActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="99" column="30" lean-forward="true" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5021#5022#0" expanded="true" />
+            <element signature="e#5072#5073#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
