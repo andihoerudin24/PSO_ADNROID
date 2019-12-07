@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".HelpActivity">
-
+    tools:context=".TentangActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,36 +14,33 @@
 
         <ImageView
             android:id="@+id/imageView2"
+            android:layout_marginTop="10dp"
             android:layout_width="126dp"
             android:layout_height="54dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginBottom="4dp"
             app:srcCompat="@drawable/logopos" />
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Penerapan Metode Particle Swarm Optimization Kantor Pos Cibinong"
             android:textColor="@color/black"
-            android:textSize="13sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/imageView2" />
+            android:textSize="13sp" />
 
     </LinearLayout>
 
     <Button
         android:id="@+id/button"
-        android:layout_width="280dp"
+        android:layout_width="296dp"
         android:layout_height="44dp"
         android:layout_marginTop="72dp"
         android:background="@drawable/mybutton"
-        android:text="BANTUAN"
+        android:text=" Tentang Pos"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,11 +57,12 @@
             android:layout_marginTop="120dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:text="@string/help"
+            android:justificationMode="inter_word"
+            android:text="@string/about"
             android:textColor="@color/black"
             android:textSize="14dp"
+            android:textAlignment="center"
             android:textStyle="bold" />
     </ScrollView>
-
 
 </android.support.constraint.ConstraintLayout>
