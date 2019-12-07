@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
                 android:textColor="#000000"
-                android:text="Lokasi 1"/>
+                android:text="Kantor Pos DC Cibinong"/>
 
             <fragment
                 android:id="@+id/autocomplete_support_fragment"
@@ -36,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
-                android:text="Lokasi 2"/>
+                android:text="Tujuan"/>
 
             <fragment
                 android:id="@+id/lokasi2"
