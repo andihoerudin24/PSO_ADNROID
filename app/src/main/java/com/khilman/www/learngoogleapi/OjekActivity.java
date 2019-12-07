@@ -8,6 +8,7 @@ import android.graphics.Color;
 import android.location.Location;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -103,22 +104,33 @@ public class OjekActivity extends AppCompatActivity implements OnMapReadyCallbac
         // Inisialisasi Widget
         wigetInit();
         setupAutocompleteSupportFragment();
-        getDetail();
+
 
     }
 
     private void getDetail(){
         ApiInterfaces apiInterface = Api.getUrl().create(ApiInterfaces.class);
-        Call<Rute> call = apiInterface.getRute(1);
+
+        Call<Rute> call         = apiInterface.getRute(1);
         call.enqueue(new Callback<Rute>() {
             @Override
             public void onResponse(Call<Rute> call, Response<Rute> response) {
-                Rute rute = response.body();
-                List<Rute.Data> rutes = rute.getProducts();
+                Rute.Data data = response.body().getData();
+                Log.e("_getproduc",data.getWaktu_tercepat());
+                TextView rute1 = findViewById(R.id.rute1);
+                rute1.setText("WAKTU TERCEPAT  :" +  data.getWaktu_tercepat());
 
-                for(int i=0; i< rutes.size(); i++){
-                    Log.e("_logrutes",rutes.get(i).getWaktu());
-                }
+                TextView jarak2 = findViewById(R.id.rute2);
+                jarak2.setText("JARAK 1  :" +  data.getJarak1() + " WAKTU =" + data.getWaktu1());
+
+                TextView jarak3 = findViewById(R.id.rute3);
+                jarak3.setText("JARAK 2  :" +  data.getJarak2() + " WAKTU =" + data.getWaktu2());
+
+                Fragment lokasi2=  getSupportFragmentManager().findFragmentById(R.id.lokasi2);
+                Log.e("_lo", String.valueOf(lokasi2));
+
+
+
             }
 
             @Override
@@ -179,7 +191,8 @@ public class OjekActivity extends AppCompatActivity implements OnMapReadyCallbac
                     Double x = SphericalUtil.computeDistanceBetween(coord1, coord2);
 
                     TextView tv_jarak = findViewById(R.id.tv_jarak);
-                    tv_jarak.setText(String.format("%.2f", x*0.001)+" km");
+                    tv_jarak.setText("Jarak :" + String.format("%.2f", x*0.001)+" km");
+                    getDetail();
 
                 }
 //                Toast.makeText(MainActivity.this, StringUtil.stringifyAutocompleteWidget(place), Toast.LENGTH_SHORT).show();
