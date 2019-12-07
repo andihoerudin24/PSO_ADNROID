@@ -36,6 +36,9 @@ import com.google.android.libraries.places.widget.AutocompleteSupportFragment;
 import com.google.android.libraries.places.widget.listener.PlaceSelectionListener;
 import com.google.maps.android.PolyUtil;
 import com.google.maps.android.SphericalUtil;
+import com.khilman.www.learngoogleapi.data.model.Rute;
+import com.khilman.www.learngoogleapi.data.retrofit.Api;
+import com.khilman.www.learngoogleapi.data.retrofit.ApiInterfaces;
 import com.khilman.www.learngoogleapi.directionhelpers.FetchURL;
 import com.khilman.www.learngoogleapi.directionhelpers.TaskLoadedCallback;
 import com.khilman.www.learngoogleapi.network.ApiServices;
@@ -100,6 +103,29 @@ public class OjekActivity extends AppCompatActivity implements OnMapReadyCallbac
         // Inisialisasi Widget
         wigetInit();
         setupAutocompleteSupportFragment();
+        getDetail();
+
+    }
+
+    private void getDetail(){
+        ApiInterfaces apiInterface = Api.getUrl().create(ApiInterfaces.class);
+        Call<Rute> call = apiInterface.getRute(1);
+        call.enqueue(new Callback<Rute>() {
+            @Override
+            public void onResponse(Call<Rute> call, Response<Rute> response) {
+                Rute rute = response.body();
+                List<Rute.Data> rutes = rute.getProducts();
+
+                for(int i=0; i< rutes.size(); i++){
+                    Log.e("_logrutes",rutes.get(i).getWaktu());
+                }
+            }
+
+            @Override
+            public void onFailure(Call<Rute> call, Throwable t) {
+
+            }
+        });
 
     }
 
