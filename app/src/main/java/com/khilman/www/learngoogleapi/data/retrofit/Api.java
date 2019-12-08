@@ -8,7 +8,7 @@ public class Api {
     private static  Retrofit retrofit;
     public static Retrofit getUrl(){
          retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.1.3:8000/")
+                .baseUrl("https://hoerudinumkm.000webhostapp.com/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
           return  retrofit;

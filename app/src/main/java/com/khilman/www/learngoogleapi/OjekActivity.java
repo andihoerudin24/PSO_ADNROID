@@ -14,6 +14,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -67,8 +69,10 @@ public class OjekActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     private TextView tvStartAddress, tvEndAddress;
     private TextView tvPrice, tvDistance;
-    private Button btnNext;
+    private Button btnNext,btn_proses;
     // Deklarasi variable
+    EditText destination;
+    ProgressBar progresBar;
     private TextView tvPickUpFrom, tvDestLocation;
 
     public static final int PICK_UP = 0;
@@ -91,6 +95,9 @@ public class OjekActivity extends AppCompatActivity implements OnMapReadyCallbac
         if (!Places.isInitialized()) {
             Places.initialize(getApplicationContext(), API_KEY);
         }
+        btn_proses=findViewById(R.id.btn_proses);
+        destination=findViewById(R.id.destination);
+        progresBar=findViewById(R.id.progresBar);
 
         placesClient = Places.createClient(this);
 
@@ -109,35 +116,34 @@ public class OjekActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     private void getDetail(){
-        ApiInterfaces apiInterface = Api.getUrl().create(ApiInterfaces.class);
-
-        Call<Rute> call         = apiInterface.getRute(1);
-        call.enqueue(new Callback<Rute>() {
+            btn_proses.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onResponse(Call<Rute> call, Response<Rute> response) {
-                Rute.Data data = response.body().getData();
-                Log.e("_getproduc",data.getWaktu_tercepat());
-                TextView rute1 = findViewById(R.id.rute1);
-                rute1.setText("WAKTU TERCEPAT  :" +  data.getWaktu_tercepat());
+            public void onClick(View view) {
+                progresBar.setVisibility(View.VISIBLE);
+                ApiInterfaces apiInterface = Api.getUrl().create(ApiInterfaces.class);
+                    Call<Rute> call         = apiInterface.getRute(Integer.parseInt(destination.getText().toString()));
+                    call.enqueue(new Callback<Rute>() {
+                        @Override
+                        public void onResponse(Call<Rute> call, Response<Rute> response) {
+                            Rute.Data data = response.body().getData();
+                            Log.e("_getproduc",data.getWaktu_tercepat());
+                            TextView rute1 = findViewById(R.id.rute1);
+                            rute1.setText("WAKTU TERCEPAT  :" +  data.getWaktu_tercepat());
+                            TextView jarak2 = findViewById(R.id.rute2);
+                            jarak2.setText("JARAK 1  :" +  data.getJarak1() + " WAKTU =" + data.getWaktu1());
+                            TextView jarak3 = findViewById(R.id.rute3);
+                            jarak3.setText("JARAK 2  :" +  data.getJarak2() + " WAKTU =" + data.getWaktu2());
+                            progresBar.setVisibility(View.GONE);
+                        }
+                        @Override
+                        public void onFailure(Call<Rute> call, Throwable t) {
 
-                TextView jarak2 = findViewById(R.id.rute2);
-                jarak2.setText("JARAK 1  :" +  data.getJarak1() + " WAKTU =" + data.getWaktu1());
-
-                TextView jarak3 = findViewById(R.id.rute3);
-                jarak3.setText("JARAK 2  :" +  data.getJarak2() + " WAKTU =" + data.getWaktu2());
-
-                Fragment lokasi2=  getSupportFragmentManager().findFragmentById(R.id.lokasi2);
-                Log.e("_lo", String.valueOf(lokasi2));
-
-
-
-            }
-
-            @Override
-            public void onFailure(Call<Rute> call, Throwable t) {
-
-            }
+                        }
+                    });
+             }
         });
+
+
 
     }
 
@@ -192,6 +198,7 @@ public class OjekActivity extends AppCompatActivity implements OnMapReadyCallbac
 
                     TextView tv_jarak = findViewById(R.id.tv_jarak);
                     tv_jarak.setText("Jarak :" + String.format("%.2f", x*0.001)+" km");
+
                     getDetail();
 
                 }
